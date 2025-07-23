@@ -7,6 +7,7 @@ def show(): #function and we give on function name
 show()          #function calling
 print(x)        # print the output
 #output: 5
+
 #        10
 
 def outer():  # function & name

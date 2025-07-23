@@ -1,15 +1,15 @@
-#palindrome
-number=12321
-rev=0
-permanent=number
-while number>0:
-    td=number%10
-    rev=rev*10+td
-    number=number//10
-if rev==permanent:
-    print("it is palindrome")
-else:
-    print("it is not palindrome")
+# #palindrome
+# number=12321
+# rev=0
+# permanent=number
+# while number>0:
+#     td=number%10
+#     rev=rev*10+td
+#     number=number//10
+# if rev==permanent:
+#     print("it is palindrome")
+# else:
+#     print("it is not palindrome")
 
 # for x in "banana":
 #     print(x)
@@ -56,11 +56,11 @@ else:
 #     for x in i:
 #       print(i)
 
-# list="naveen","shanni","nagaraj"
-# fruits="banana","grapes","apple"
-# for i in list:
-#     for x in fruits:
-#         print(i,x)
+list="naveen","shanni","nagaraj"
+fruits="banana","grapes","apple"
+for i in list:
+    for x in fruits:
+        print(i)
 
 # for i in [0,1,2]:
 #     pass
